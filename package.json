@@ -10,7 +10,7 @@
     "server": "node index.js",
     "dev": "nodemon --ignore data/ --ignore sessions/ --ignore main.js index.js",
     "electron": "electron electron-start.js",
-    "package": "electron-packager . attPrefabulator-1.9.2 --platform=win32 --arch=x64 --overwrite --icon=./attprefabulator.ico --prune=false"
+    "package": "electron-packager . attPrefabulator-1.9.3 --platform=win32 --arch=x64 --overwrite --icon=./attprefabulator.ico --prune=false"
   },
   "bin": "index.js",
   "pkg": {

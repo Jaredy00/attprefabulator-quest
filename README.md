@@ -8,15 +8,15 @@ All I did was make some minor ajustments as well as add some new features
 This version works on quest
 
 # attprefabulator
-Add, remove and modify prefabs in A Township Tale
+GUI for console commands for A Township Tale
 
 This browser based application gives a click-driven abstraction to the A Township Tale console's command set
 
 ### Download
 You can download the latest (Windows) executable version of Prefabulator for quest here:
-https://github.com/Jaredy00/attprefabulator/releases/
+https://github.com/Jaredy00/attprefabulator-quest/releases/
 
-<a href="https://github.com/Jaredy00/attprefabulator/releases/">
+<a href="https://github.com/Jaredy00/attprefabulator-quest/releases/">
 
 ### Release Notes
 - v1.9.3 - Removed all spawning and select features to create a version that would work on quest
@@ -89,7 +89,7 @@ https://github.com/Jaredy00/attprefabulator/releases/
 ## Usage 
 
 It's recommended to use the latest release version found here:
-https://github.com/Jaredy00/attprefabulator/releases/
+https://github.com/Jaredy00/attprefabulator-quest/releases/
 
 Simply download the version for your operating system, extract the files, and run attPrefabulator
 
@@ -108,9 +108,9 @@ At this point, restart your PC to make sure the PATH is correctly set
 Open a command prompt or terminal and type
 
 ```
-git clone https://github.com/Jaredy00/attprefabulator.git
+git clone https://github.com/Jaredy00/attprefabulator-quest.git
 
-cd attprefabulator/
+cd attprefabulator-quest/
 ```
 
 Install the necessary node dependencies to run the app using the **npm** command

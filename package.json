@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edencomputing/attprefabulator.git"
+    "url": "git+https://github.com/jaredy00/attprefabulator-quest.git"
   },
   "keywords": [
     "township",
@@ -32,9 +32,9 @@
   "author": "Twidge, Jaredy00",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/edencomputing/attprefabulator/issues"
+    "url": "https://github.com/jaredy00/attprefabulator-quest/issues"
   },
-  "homepage": "https://github.com/edencomputing/attprefabulator#readme",
+  "homepage": "https://github.com/jaredy00/attprefabulator-quest#readme",
   "dependencies": {
     "alta-jsapi": "git+https://github.com/alta-vr/alta-jsapi.git",
     "att-bot-core": "file:../att-bot-core",

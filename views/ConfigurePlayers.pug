@@ -1,0 +1,32 @@
+div#ConfigurePlayers.Message(class="container hidden" style="padding-top: 5px;")
+    div.ControlsMini(class="d-flex w-100" style="flex-direction:row")
+        i(class="fas fa-users px-2")
+        select#ConfigurePlayersSelect.form-control.w-100(style="flex:1")
+            option(value="default") Choose a player...
+
+    div#ConfigurePlayersDialog.pt-2(class="hidden")
+        div.ContentRow(class="row")
+            div.col-auto.mr-auto
+                h4#ConfigurePlayersPlayer.px-1.py-2 Select a player
+            div.PlayerNavControls.col-7.ml-auto
+                div.row
+                    a#PlayerConfigStats.PlayerNav.ControlsMini.col.ml-auto.text-center.active
+                        i(class="fas fa-user-edit fa-2x" title="Player Stats")
+                    a#PlayerConfigTeleport.PlayerNav.ControlsMini.col.ml-auto.text-center
+                        i(class="fas fa-street-view fa-2x" title="Teleport")
+                    a#PlayerConfigLevel.PlayerNav.ControlsMini.col.ml-auto.text-center
+                        i(class="fas fa-dumbbell fa-2x" title="Player Level")
+                    a#PlayerConfigAdmin.PlayerNav.ControlsMini.col.ml-auto.text-center
+                        i(class="fas fa-user-shield fa-2x" title="Moderation")
+
+        div#PlayerConfigStats.PlayerConfigDialog
+            include PlayerConfigStats.pug
+
+        div#PlayerConfigTeleport.PlayerConfigDialog(class="hidden")
+            include PlayerConfigTeleport.pug
+
+        div#PlayerConfigLevel.PlayerConfigDialog(class="hidden")
+            include PlayerConfigLevel.pug
+
+        div#PlayerConfigAdmin.PlayerConfigDialog(class="hidden")
+            include PlayerConfigAdmin.pug

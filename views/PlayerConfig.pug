@@ -1,0 +1,26 @@
+div#PlayerConfig.Message(class="container hidden")
+    div.ContentRow(class="row")
+        div.col-auto.mr-auto.align-middle
+            h4 #{serverUsername}
+        div.col-6.ml-auto
+            div.row
+                a#PlayerConfigStats.PlayerNav.ControlsMini.col.ml-auto.text-center.active
+                    i(class="fas fa-user-edit fa-2x" title="Player Stats")
+                a#PlayerConfigTeleport.PlayerNav.ControlsMini.col.ml-auto.text-center
+                    i(class="fas fa-street-view fa-2x" title="Player Teleport")
+                a#PlayerConfigLevel.PlayerNav.ControlsMini.col.ml-auto.text-center
+                    i(class="fas fa-dumbbell fa-2x" title="Player Level")
+                a#PlayerConfigAdmin.PlayerNav.ControlsMini.col.ml-auto.text-center
+                    i(class="fas fa-user-shield fa-2x" title="Moderation")
+
+    div#PlayerConfigStats.PlayerConfigDialog
+        include PlayerConfigStats.pug
+
+    div#PlayerConfigTeleport.PlayerConfigDialog(class="hidden")
+        include PlayerConfigTeleport.pug
+
+    div#PlayerConfigLevel.PlayerConfigDialog(class="hidden")
+        include PlayerConfigLevel.pug
+
+    div#PlayerConfigAdmin.PlayerConfigDialog(class="hidden")
+        include PlayerConfigAdmin.pug
